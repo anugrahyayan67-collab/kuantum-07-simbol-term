@@ -1,0 +1,196 @@
+[00:00] Dua garis kuning
+
+Malam hari, lampu jalan natrium memancarkan cahaya kuning yang khas.
+Lewatkan cahayanya ke spektroskop yang sangat teliti, dan kuning itu ternyata bukan satu garis, melainkan dua.
+Lima ratus delapan puluh sembilan koma nol, dan lima ratus delapan puluh sembilan koma enam nanometer.
+Natrium hanya punya satu elektron terluar. Mengapa satu elektron memberi dua garis?
+Jawabannya tersimpan dalam sebuah kode pendek yang menempel pada setiap keadaan atom.
+Kode itu disebut simbol term. Hari ini kita belajar membacanya, menyusunnya, dan memakainya untuk meramal cahaya.
+
+[00:54] Peta video
+
+Perjalanan kita punya tiga bagian.
+Pertama, prinsip dasar: spin, larangan Pauli, dan cara momentum sudut elektron dijumlahkan.
+Kedua, implementasi dalam kimia: term dasar unsur periode empat, struktur halus, dan aturan seleksi.
+Ketiga, penerapan: dari lampu, cahaya berpendar, warna ion logam, sampai laser.
+Di akhir bagian dua, kita kembali ke dua garis kuning natrium dan memecahkan misterinya.
+
+[01:28] Bab 01 — Spin elektron
+
+Mulai dari satu elektron. Selain bergerak di orbital, elektron membawa momentum sudut bawaan yang disebut spin.
+Bilangan kuantum spinnya s sama dengan setengah, dan proyeksinya hanya dua: plus setengah atau minus setengah.
+Kita menyebutnya spin naik dan spin turun, alfa dan beta.
+Tapi jangan bayangkan bola kecil yang benar-benar berputar. Spin adalah sifat kuantum murni, tanpa padanan klasik yang tepat.
+Buktinya: berkas atom perak yang melewati medan magnet tak homogen terbelah menjadi tepat dua berkas.
+
+[02:08] Bab 02 — Larangan Pauli
+
+Elektron-elektron identik. Mereka tidak bisa diberi label atau dibedakan satu sama lain.
+Akibatnya, fungsi gelombang total harus berganti tanda bila dua elektron ditukar.
+Untuk dua spin-orbital a dan b, fungsi yang memenuhi syarat ini adalah a-satu kali b-dua, dikurangi b-satu kali a-dua, dibagi akar dua.
+Sekarang taruh kedua elektron di spin-orbital yang sama. Kedua suku identik, saling menghapus, dan fungsi gelombangnya nol.
+Itulah larangan Pauli: dua elektron tidak boleh menempati spin-orbital yang sama.
+Satu orbital ruang boleh berisi dua elektron, asalkan spinnya berlawanan.
+
+[02:57] Bab 03 — Singlet dan triplet
+
+Bagaimana dua spin setengah bergabung? Hanya ada dua kemungkinan: S total nol atau satu.
+S nol punya satu keadaan, disebut singlet. S satu punya tiga keadaan, disebut triplet.
+Tiga keadaan triplet: keduanya naik, keduanya turun, dan satu kombinasi naik-turun bertanda plus.
+Singlet adalah kombinasi naik-turun bertanda minus.
+Jadi hati-hati: dua spin berlawanan belum tentu singlet. Naik-turun saja adalah campuran singlet dan triplet.
+Angka satu dan tiga inilah yang nanti muncul sebagai multiplisitas di pojok kiri atas simbol term.
+
+[03:41] Bab 04 — Membaca simbol term
+
+Inilah bentuk simbol term: dua S tambah satu di kiri atas, huruf L di tengah, dan J di kanan bawah.
+Angka kiri atas adalah multiplisitas: satu singlet, dua doublet, tiga triplet, empat quartet.
+Huruf di tengah menyatakan L, momentum sudut orbital total: S untuk nol, P satu, D dua, F tiga, lalu G, H, I.
+Angka kanan bawah adalah J, momentum sudut total hasil gabungan L dan S.
+Contoh: triplet F empat. Tiga berarti S satu, F berarti L tiga, dan J empat.
+Tingkat ini punya dua J tambah satu, yaitu sembilan keadaan yang berenergi sama tanpa medan luar.
+Awas jebakan: angka dua pada doublet P bukan bilangan kuantum utama, dan huruf S besar bukan orbital s.
+
+[04:37] Bab 05 — Kopling LS
+
+Pada atom ringan, kita memakai kopling Russell–Saunders, atau kopling LS.
+Momentum orbital semua elektron dijumlahkan menjadi L, spinnya menjadi S, lalu keduanya digabung menjadi J.
+Karena ini penjumlahan vektor, J tidak tunggal: nilainya berjenjang dari selisih L dan S sampai jumlahnya.
+Untuk triplet P, L satu dan S satu, sehingga J bisa nol, satu, atau dua.
+Cek hitungannya: satu tambah tiga tambah lima sama dengan sembilan, sama dengan tiga kali tiga.
+Jumlah keadaan tidak hilang. Keadaan hanya dikelompokkan ulang menurut J.
+
+[05:21] Bab 06 — Aturan Hund
+
+Satu konfigurasi bisa menghasilkan beberapa term. Mana yang energinya paling rendah? Di sinilah aturan Hund bekerja.
+Pertama, abaikan subkulit penuh, karena spin dan momentum orbitalnya selalu nol.
+Kedua, buat spin total sebesar mungkin: isi orbital berbeda dengan spin sejajar sebelum berpasangan.
+Ketiga, untuk spin maksimum itu, pilih L terbesar.
+Keempat, tentukan J: kurang dari setengah penuh ambil selisihnya, lebih dari setengah penuh ambil jumlahnya.
+Coba pada karbon, dua p dua. Dua elektron di m-l satu dan nol, keduanya spin naik.
+S satu, L satu, kurang dari setengah penuh, maka J nol. Term dasar karbon: triplet P nol.
+
+[06:13] Bab 07 — Bukti mikrostatus
+
+Mengapa karbon hanya punya triplet P, singlet D, dan singlet S? Kita buktikan dengan menghitung.
+Subkulit p punya enam spin-orbital. Memilih dua dari enam memberi lima belas susunan, disebut mikrostatus.
+Kelompokkan kelima belas mikrostatus itu menurut M-L dan M-S dalam sebuah tabel.
+Ambil M-S terbesar, lalu M-L terbesar di baris itu: triplet P, yang mengambil sembilan kotak.
+Sisanya punya M-L dua, jadi singlet D dengan lima kotak. Tinggal satu kotak: singlet S.
+Sembilan tambah lima tambah satu, lima belas. Semua mikrostatus terbagi habis.
+
+[06:59] Bab 08 — Pola p dan d
+
+Dengan cara yang sama, kita dapat tabel term dasar untuk semua pengisian p dan d.
+Dari d satu sampai d lima, spin terus naik, hingga d lima memberi sextet S: setengah penuh, L nol.
+Setelah setengah penuh, elektron mulai berpasangan dan spin total turun lagi.
+Lihat pola cerminnya: d dua dan d delapan sama-sama triplet F, p satu dan p lima sama-sama doublet P.
+Ini hubungan elektron dan lubang. Termnya sama, tapi urutan J terbalik, jadi J tetap harus dihitung.
+
+[07:37] Bab 09 — Term dasar periode 4
+
+Sekarang terapkan pada atom nyata: unsur periode empat, dari kalium sampai kripton.
+Kalium, satu elektron empat s: doublet S setengah. Kalsium, semua berpasangan: singlet S nol.
+Masuk logam transisi, multiplisitas naik: skandium doublet D, titanium triplet F, vanadium quartet F.
+Puncaknya di kromium dan mangan, dengan elektron tak berpasangan paling banyak.
+Lalu turun lagi: besi quintet D empat, kobalt quartet F, nikel triplet F empat.
+Tembaga dan seng kembali sederhana, lalu blok p mengulang pola p satu sampai p enam, hingga kripton singlet S nol.
+
+[08:23] Bab 10 — Kasus kromium dan besi
+
+Kromium sering menjebak. Konfigurasinya tiga d lima empat s satu, bukan tiga d empat empat s dua.
+Lima elektron d sejajar memberi S lima per dua, dan elektron empat s ikut sejajar.
+Spin totalnya tiga, multiplisitas tujuh, J tiga: septet S tiga.
+Sextet S lima per dua justru milik mangan netral, yang subkulit empat s-nya sudah penuh.
+Ion juga bisa. Besi netral quintet D empat. Besi tiga plus melepas dua elektron empat s dan satu elektron tiga d.
+Tersisa tiga d lima, semuanya sejajar: sextet S lima per dua, sama seperti mangan dua plus.
+
+[09:09] Bab 11 — Struktur halus
+
+Mengapa satu term terpecah menjadi beberapa tingkat J?
+Penyebabnya interaksi spin–orbit: magnet kecil spin merasakan medan magnet dari gerak orbital elektron.
+Energinya bergeser sebanding dengan J kali J tambah satu, dikurangi L kali L tambah satu, dikurangi S kali S tambah satu.
+Untuk triplet P, pergeserannya minus dua A, minus A, dan plus A. Jaraknya satu banding dua: aturan interval Landé.
+Kembali ke natrium. Elektron terluarnya bisa naik ke tiga p, dengan term doublet P.
+Spin–orbit memecahnya menjadi doublet P tiga per dua dan doublet P setengah, berselisih sangat tipis.
+Keduanya turun ke doublet S setengah dan memancarkan dua garis: lima delapan sembilan koma nol dan lima delapan sembilan koma enam nanometer. Misteri terpecahkan.
+
+[10:09] Bab 12 — Paritas
+
+Tidak semua lompatan elektron diizinkan. Kuncinya adalah simetri yang disebut paritas.
+Paritas bertanya: bila semua koordinat dibalik melalui pusat atom, apakah fungsi gelombang tetap, atau berganti tanda?
+Orbital s dan d berparitas genap, p dan f ganjil. Paritas konfigurasi adalah minus satu pangkat jumlah l.
+Cahaya berinteraksi dengan atom lewat operator dipol, dan operator dipol berparitas ganjil.
+Agar integral transisi tidak nol, keadaan awal dan akhir harus berparitas berlawanan.
+Jadi transisi dipol listrik selalu mengubah paritas: genap ke ganjil, atau ganjil ke genap.
+
+[10:57] Bab 13 — Aturan seleksi E1
+
+Inilah daftar aturan seleksi dipol listrik, atau E1, yang dipakai di UTS.
+Satu: paritas harus berubah.
+Dua: spin total tidak berubah, delta S sama dengan nol, karena operator dipol tidak menyentuh spin.
+Tiga: delta L boleh nol atau plus minus satu, tapi L nol ke L nol dilarang. Aturan yang sama berlaku untuk J.
+Empat: bila hanya satu elektron yang berpindah, delta l kecil harus plus minus satu.
+Dan tidak ada syarat umum untuk n: elektron boleh melompat ke kulit mana pun, asal energi fotonnya cocok.
+Ingat, diizinkan bukan berarti pasti kuat. Kekuatan garis masih bergantung pada integral transisi dan populasi.
+
+[11:48] Bab 14 — Memeriksa simbol & transisi
+
+Sebelum memakai aturan seleksi, periksa dulu apakah simbolnya sah.
+Singlet S setengah? Tidak sah. S nol dan L nol hanya memberi J nol.
+Triplet P setengah? Juga tidak sah. L satu dan S satu hanya memberi J bulat: nol, satu, dua.
+Sekarang mulai dari doublet P tiga per dua yang ganjil. Ke doublet S setengah yang genap: semua lolos, diizinkan.
+Ke doublet D lima per dua yang genap: juga lolos.
+Tapi ke doublet P setengah yang ganjil: L, S, dan J lolos, namun paritas tidak berubah. Dilarang.
+Urutannya: sahkan simbol, cek momentum sudut, cek paritas, lalu cek energi.
+
+[12:37] Bab 15 — Kembali ke hidrogen
+
+Aturan yang sama menjelaskan spektrum hidrogen yang sudah kita kenal.
+Satu s ke dua p menyerap sepuluh koma dua elektronvolt, sekitar seratus dua puluh satu nanometer: garis Lyman alfa.
+Tiga d ke dua p memancarkan satu koma delapan sembilan elektronvolt, sekitar enam ratus lima puluh enam nanometer: garis merah H alfa.
+Keduanya punya delta l plus minus satu. Sedangkan dua s ke satu s, delta l nol, dilarang untuk dipol listrik.
+Itulah sebabnya keadaan dua s bertahan sekitar sepersepuluh detik, sedangkan dua p hanya sekitar satu koma enam nanodetik.
+
+[13:22] Bab 16 — Lampu merkuri
+
+Aturan delta S nol paling tegas pada atom ringan. Pada atom berat, aturan ini mulai melonggar.
+Contohnya merkuri. Garis terkuat lampu merkuri tekanan rendah, dua ratus lima puluh empat nanometer, berasal dari triplet P satu ke singlet S nol.
+Dalam kopling LS murni, transisi ini dilarang, karena spinnya berubah.
+Tetapi pada atom seberat merkuri, interaksi spin–orbit kuat, sehingga keadaan triplet tercampur sedikit singlet.
+Hasilnya garis interkombinasi yang terang. Ultraviolet inilah yang diubah lapisan fosfor menjadi cahaya putih lampu TL.
+
+[14:07] Bab 17 — Fluoresensi & fosforesensi
+
+Aturan spin juga membedakan dua cara molekul memancarkan kembali cahaya: fluoresensi dan fosforesensi.
+Fluoresensi: singlet tereksitasi kembali ke singlet dasar. Spin tidak berubah, cahaya keluar dalam hitungan nanodetik.
+Tetapi sebagian molekul menyeberang ke keadaan triplet.
+Kembali dari triplet ke singlet dilarang spin, jadi pancarannya lambat, dari milidetik sampai detik: fosforesensi.
+Ini keadaan molekul, bukan atom, tetapi aturan spinnya sama. Orbital molekul menunggu kita setelah UTS.
+
+[14:49] Bab 18 — Warna pucat mangan
+
+Larutan ion logam transisi biasanya berwarna. Tetapi larutan mangan dua plus hanya merah muda yang sangat pucat.
+Mangan dua plus adalah d lima, dengan term dasar sextet S: lima spin sejajar.
+Untuk menyerap cahaya, satu elektron d harus berpindah orbital, dan itu memaksa satu spin berbalik.
+Tidak ada keadaan tereksitasi lain dengan lima spin sejajar. Semua serapan d ke d terlarang spin, sekaligus terlarang paritas.
+Serapannya jauh lebih lemah daripada ion logam transisi lain, sehingga warnanya nyaris hilang.
+
+[15:31] Bab 19 — Laser dan bintang
+
+Simbol term juga dipakai merancang laser. Laser Nd:YAG memakai ion neodimium tiga plus, empat f tiga.
+Dengan aturan Hund: tiga spin sejajar, S tiga per dua. L terbesar enam, huruf I. Kurang dari setengah penuh, J sembilan per dua.
+Laser bekerja dari quartet F tiga per dua ke quartet I sebelas per dua, memancarkan inframerah seribu enam puluh empat nanometer.
+Transisi f ke f terlarang paritas, jadi keadaan atasnya bertahan lama, cocok untuk menimbun energi laser.
+Di langit, Fraunhofer melihat garis gelap pada spektrum Matahari dan menamai pasangan kuning itu garis D.
+Itulah garis natrium yang sama, kini sebagai serapan. Dari lampu jalan sampai bintang, kode pendek yang sama memberi tahu atom apa yang ada di sana.
+
+[16:29] Bab 20 — Merangkai semuanya
+
+Mari rangkum.
+Spin setengah dan larangan Pauli membatasi cara elektron mengisi orbital.
+Simbol term merangkum spin total, momentum orbital total, dan momentum sudut total dalam satu kode.
+Aturan Hund memilih term dasar: spin maksimum, L maksimum, lalu J sesuai pengisian.
+Spin–orbit memecah term menjadi struktur halus, seperti dua garis kuning natrium.
+Dan aturan seleksi menentukan lompatan yang diizinkan: paritas berubah, delta S nol, delta L dan delta J nol atau plus minus satu.
+Setelah UTS, kita bawa ide-ide ini dari atom ke molekul: ikatan valensi dan orbital molekul.
