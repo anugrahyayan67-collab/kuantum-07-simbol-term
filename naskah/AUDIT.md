@@ -22,10 +22,12 @@ Sumber utama: Modul 7 (bahan kuliah), NIST Atomic Spectroscopy (Martin & Wiese) 
 | check | ²P°₃/₂ → ²S₁/₂ ✓, → ²D₅/₂ ✓, → ²P°₁/₂ ✗ (paritas) | — | Modul 7 Contoh 7, §12 |
 | hydrogen | 1s→2p 10,2 eV ≈ 121,6 nm (Lyman α); 3d→2p 1,889 eV ≈ 656 nm (Hα); 2s→1s E1 dilarang | Modul 7 Contoh 8 | NIST ASD |
 | hydrogen | Umur 2s ≈ 0,12 dtk (dua foton); 2p ≈ 1,6 ns | 0,122 s; 1,596 ns | NIST; Bethe & Salpeter |
-| mercury | Garis Hg 253,65 nm ≈ 254 nm, 6s6p ³P₁ → 6s² ¹S₀ (interkombinasi), garis utama lampu Hg tekanan rendah / TL | — | NIST ASD |
+| mercury | Garis Hg 253,65 nm ≈ 254 nm, 6s6p ³P₁ → 6s² ¹S₀ (interkombinasi), garis utama lampu Hg tekanan rendah / TL; layar menulis pencampuran ³P°₁ + ε ¹P°₁ (J sama = 1, spin–orbit hanya mencampur tingkat ber-J sama) | — | NIST ASD; Atkins |
 | glow | Fluoresensi S₁→S₀ ≈ ns; fosforesensi T₁→S₀ terlarang spin, ms–dtk | — | Turro; Atkins |
 | manganese | Mn²⁺ d⁵ ⁶S: tak ada keadaan sextet lain → d–d terlarang spin & Laporte → merah muda sangat pucat | kualitatif (tanpa angka ε) | Housecroft & Sharpe; Atkins Inorganic |
 | laser | Nd³⁺ 4f³: S = 3/2, L = 6 (I), J = 9/2 → ⁴I₉/₂; laser ⁴F₃/₂ → ⁴I₁₁/₂ 1064 nm; f–f terlarang paritas → umur panjang (≈ 230 µs) | — | Koechner; NIST |
 | laser | Fraunhofer menamai garis D (1814) | — | sejarah spektroskopi |
+
+Paritas: "°" dipakai untuk Na ²P° dan Hg ³P°₁ (konvensi NIST); term Nd³⁺ 4f³ (ganjil) ditulis tanpa "°" mengikuti konvensi literatur laser.
 
 Catatan gaya: "≈" untuk perkiraan, "±" hanya plus-minus. Kopling LS disebut sebagai pendekatan (atom ringan).

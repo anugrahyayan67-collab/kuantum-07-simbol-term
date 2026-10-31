@@ -1,8 +1,9 @@
 import React from 'react';
 import {AbsoluteFill} from 'remotion';
-import {EASE_IN_OUT, ramp} from '../anim';
+import {EASE_IN_OUT, rand, ramp} from '../anim';
 import {Glow, Stage} from '../components/primitives';
-import {PhaseWave, freePacket} from '../components/qm';
+import {SpectrumDefs} from '../components/grupD';
+import {wlColor} from '../components/viz';
 import {useScene} from '../SceneContext';
 import {C, FONT} from '../theme';
 
@@ -32,8 +33,25 @@ export const Outro: React.FC = () => {
     <AbsoluteFill style={{opacity: out}}>
       <Stage>
         <Glow x={960} y={300} r={500} color="violet" opacity={0.15} />
-        <g opacity={0.3 * waves}>
-          <PhaseWave f={(u) => freePacket((u - 0.5) * 24, 0.3 + t * 0.1, -5 + t * 0.4, 1.6, 4)} x={260} y={330} w={1400} sy={90} n={200} outline={false} mirror />
+        <SpectrumDefs id="outro-spec" />
+        {/* hiasan: pita spektrum tipis dengan dua garis kuning natrium yang berdenyut */}
+        <g opacity={waves}>
+          <rect x={360} y={96} width={1200} height={14} rx={7} fill="url(#outro-spec)" opacity={0.35} />
+          {[588.995, 589.592].map((nm, k) => {
+            const x = 360 + ((nm - 380) / 380) * 1200 + (k ? 9 : -9);
+            const pulse = 0.75 + 0.25 * Math.sin(t * 2.2 + k * 1.3);
+            return (
+              <g key={nm}>
+                <circle cx={x} cy={103} r={46} fill="url(#soft-gold)" opacity={0.35 * pulse} />
+                <rect x={x - 3} y={70} width={6} height={66} rx={3} fill={wlColor(589)} opacity={pulse} />
+                <rect x={x - 1} y={74} width={2} height={58} rx={1} fill="#fff6c0" opacity={pulse} />
+              </g>
+            );
+          })}
+          {Array.from({length: 26}, (_, k) => {
+            const ph = ((t * (0.05 + 0.04 * rand(k)) + rand(k * 3.1)) % 1 + 1) % 1;
+            return <circle key={k} cx={120 + rand(k * 7.3) * 1680} cy={1040 - ph * 1000} r={1.5 + 2 * rand(k * 1.7)} fill={wlColor(589)} opacity={0.35 * Math.min(1, ph * 6) * (1 - ph)} />;
+          })}
         </g>
       </Stage>
       <AbsoluteFill style={{alignItems: 'center', paddingTop: 150}}>
