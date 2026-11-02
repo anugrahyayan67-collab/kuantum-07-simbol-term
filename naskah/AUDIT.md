@@ -2,9 +2,9 @@
 
 Sumber utama: Modul 7 (bahan kuliah), NIST Atomic Spectroscopy (Martin & Wiese) bag. 8 & 17, NIST ASD / Basic Atomic Spectroscopic Data, Atkins & de Paula, Levine.
 
-| Adegan | Klaim | Nilai / dasar | Sumber |
+| Adegan | Klaim | Nilai / dasar · dicek | Sumber |
 |---|---|---|---|
-| hook, fine, laser | Garis D natrium (3p ²P → 3s ²S₁/₂) | D₂ (²P₃/₂) 588,995 nm ≈ 589,0; D₁ (²P₁/₂) 589,592 nm ≈ 589,6; selisih ≈ 17,2 cm⁻¹ | NIST ASD |
+| hook, fine, laser | Garis D natrium (3p ²P → 3s ²S₁/₂) | D₂ (²P₃/₂) 588,995 nm ≈ 589,0; D₁ (²P₁/₂) 589,592 nm ≈ 589,6; selisih ≈ 17,2 cm⁻¹ · ✓ 2 Nov 2026 | NIST ASD Na I: 588,995095 & 589,592424 nm (udara); E(²P°₃/₂) − E(²P°₁/₂) = 16973,366 − 16956,170 = 17,196 cm⁻¹ |
 | spin | s = ½, mₛ = ±½; spin bukan putaran harfiah | — | Modul 7 §2 |
 | spin | Stern–Gerlach: berkas atom perak terbelah dua | 1922 | Gerlach & Stern, Z. Phys. 9, 349 |
 | pauli | Ψ antisimetrik, (a₁b₂ − b₁a₂)/√2, nol bila a = b | — | Modul 7 (7.2–7.3) |
@@ -22,7 +22,7 @@ Sumber utama: Modul 7 (bahan kuliah), NIST Atomic Spectroscopy (Martin & Wiese) 
 | check | ²P°₃/₂ → ²S₁/₂ ✓, → ²D₅/₂ ✓, → ²P°₁/₂ ✗ (paritas) | — | Modul 7 Contoh 7, §12 |
 | hydrogen | 1s→2p 10,2 eV ≈ 121,6 nm (Lyman α); 3d→2p 1,889 eV ≈ 656 nm (Hα); 2s→1s E1 dilarang | Modul 7 Contoh 8 | NIST ASD |
 | hydrogen | Umur 2s ≈ 0,12 dtk (dua foton); 2p ≈ 1,6 ns | 0,122 s; 1,596 ns | NIST; Bethe & Salpeter |
-| mercury | Garis Hg 253,65 nm ≈ 254 nm, 6s6p ³P₁ → 6s² ¹S₀ (interkombinasi), garis utama lampu Hg tekanan rendah / TL; layar menulis pencampuran ³P°₁ + ε ¹P°₁ (J sama = 1, spin–orbit hanya mencampur tingkat ber-J sama) | — | NIST ASD; Atkins |
+| mercury | Garis Hg 253,65 nm ≈ 254 nm, 6s6p ³P₁ → 6s² ¹S₀ (interkombinasi), garis utama lampu Hg tekanan rendah / TL; layar menulis pencampuran ³P°₁ + ε ¹P°₁ (J sama = 1, spin–orbit hanya mencampur tingkat ber-J sama) | ✓ 2 Nov 2026 | NIST ASD Hg I: 253,6521 nm, 6s² ¹S₀ – 6s6p ³P°₁, A = 8,4×10⁶ s⁻¹; Atkins |
 | glow | Fluoresensi S₁→S₀ ≈ ns; fosforesensi T₁→S₀ terlarang spin, ms–dtk | — | Turro; Atkins |
 | manganese | Mn²⁺ d⁵ ⁶S: tak ada keadaan sextet lain → d–d terlarang spin & Laporte → merah muda sangat pucat | kualitatif (tanpa angka ε) | Housecroft & Sharpe; Atkins Inorganic |
 | laser | Nd³⁺ 4f³: S = 3/2, L = 6 (I), J = 9/2 → ⁴I₉/₂; laser ⁴F₃/₂ → ⁴I₁₁/₂ 1064 nm; f–f terlarang paritas → umur panjang (≈ 230 µs) | — | Koechner; NIST |
