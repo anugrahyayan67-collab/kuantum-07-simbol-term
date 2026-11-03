@@ -17,9 +17,9 @@ const Cover: React.FC = () => (
       </text>
     </Stage>
     <div style={{position: 'absolute', left: 1080, top: 150, width: 700, textAlign: 'center', fontFamily: FONT.serif, color: C.gold, textShadow: '0 0 40px rgba(255,194,74,0.5)'}}>
-      <span style={{fontSize: 110, verticalAlign: 'super'}}>2</span>
+      <span style={{fontSize: 110, position: 'relative', top: -150, marginRight: 8}}>2</span>
       <span style={{fontSize: 300, fontStyle: 'italic'}}>P</span>
-      <span style={{fontSize: 110, verticalAlign: 'sub'}}>3/2</span>
+      <span style={{fontSize: 110, position: 'relative', top: 30}}>3/2</span>
     </div>
     <div style={{position: 'absolute', left: 110, top: 220, width: 900}}>
       <div style={{fontFamily: FONT.mono, fontSize: 30, letterSpacing: 8, color: C.gold}}>KIMIA KUANTUM · MODUL 7</div>
