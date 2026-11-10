@@ -1,0 +1,1 @@
+# kuantum-07-simbol-term
